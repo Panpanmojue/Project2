@@ -1,0 +1,193 @@
+header
+{
+    background-color: dimgray;
+    color:white;
+    text-align:left;
+    padding:4px;
+    font-family: Georgia;
+    font-size: large;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a ,.dropBto{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 124px;
+    text-decoration: none;
+}
+
+.dropBto{
+    text-align: right;
+}
+
+li a:hover ,.dropDown:hover{
+    background-color: #111;
+}
+
+.dropDown{
+    display: inline-block;
+}
+
+.dropContent{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+}
+
+.dropContent a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropContent a:hover{
+    background-color: #f1f1f1;
+}
+
+.dropDown:hover .dropContent{
+    display: block;
+}
+
+.active{
+    background-color: #4A6867;
+}
+
+fieldset.whole{
+    border: 0.1rem dashed #1735ba;
+    width: 90%;
+    min-height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.7rem;
+    margin-bottom: 2%;
+}
+
+legend{
+    font-size: 1.6rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.uploadPic{
+    margin: 2% 5.5% 5.5%;
+    width: 90%;
+    min-height: 300px;
+    border: 0.1rem dashed lightgrey;
+    border-radius: 0.6rem;
+    text-align: center;
+}
+
+
+img#PicFromUser{
+    padding-top: 1%;
+    width: auto;
+    max-width: 98%;
+}
+p#placeholder{
+    margin-top: 10%;
+    color: #5d5d5d;
+
+}
+div.wrap{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 30px;
+    position:relative;
+    display:inline-block;
+    padding-top: 8px;
+    text-align:center;
+    vertical-align:middle;
+    cursor:pointer;
+    background: #4A6867;
+    border-radius: 0.6rem;
+}
+div.wrap:hover{
+    background: darkslateblue;
+}
+.wrap span{
+    color: whitesmoke;
+    font-size: 1.3rem;
+}
+div.wrap:hover span{
+    font-size: 1.5rem;
+}
+input[type="file"]{
+    position:absolute;
+    top:0;
+    right:0;
+    margin:0;
+    border:solid transparent;
+    opacity:0;
+    filter:alpha(opacity=0);
+    cursor: pointer;
+}
+
+h2{
+    background-color: #4A6867;
+    text-align: left;
+    color: #f1f1f1;
+    font-size:2.0vw ;
+}
+
+fieldset.info{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: darkgray;
+    border:  0.06rem solid;
+    border-radius: 0.8rem;
+    padding-bottom: 2%;
+}
+
+input[type="text"],textarea{
+    width: 95%;
+    font-size: 1.8vw;
+    border-bottom-left-radius: 0.6rem;
+}
+
+div#bt{
+    text-align: center;
+}
+input[type="button"]{
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: #4A6867;
+    width: 27%;
+    border-bottom-right-radius: 0.6rem;
+    text-align: center;
+}
+input[type="button"]:hover{
+    color: orange;
+}
+
+
+textarea{
+    height: 90px;
+    font-weight: bolder;
+}
+
+
+footer{
+    background-color: dimgray;
+    color: darkgray;
+    text-align: center;
+    font-size: 1.1vw;
+}

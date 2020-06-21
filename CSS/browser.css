@@ -1,0 +1,147 @@
+header
+{
+    background-color: dimgray;
+    color:white;
+    text-align:left;
+    padding:4px;
+    font-family: Georgia;
+    font-size: large;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a ,.dropBto{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 124px;
+    text-decoration: none;
+}
+
+.dropBto{
+    text-align: right;
+}
+
+li a:hover ,.dropDown:hover{
+    background-color: #111;
+}
+
+.dropDown{
+    display: inline-block;
+}
+
+.dropContent{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+}
+
+.dropContent a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropContent a:hover{
+    background-color: #f1f1f1;
+}
+
+.dropDown:hover .dropContent{
+    display: block;
+}
+
+.active{
+    background-color: #4A6867;
+}
+
+table.main{
+    padding-left: 5%;
+    border-spacing: 65px;
+    padding-top: 0;
+
+
+}
+
+td.left{
+    width: 35%;
+}
+
+div.hot h2{
+    background-color: #4A6867;
+    text-align: center;
+    color: #f1f1f1;
+    font-size:1.5vw ;
+}
+
+div.hot{
+    border: 0.1rem lightgrey solid;
+    border-radius: 0.8rem;
+    padding: 5%;
+}
+
+div#hotContent,div#hotCountry,div#hotSearch{
+    width: 100%;
+    border: 0.06rem solid lightgrey;
+    border-radius: 0.6rem;
+    margin-bottom: 7%;
+
+}
+
+input[type="text"]{
+    padding-left: 0.5%;
+    font-size: 1.2vw;
+    width: 69.5%;
+    border-bottom-left-radius: 0.6rem;
+}
+input[type="button"]{
+    font-size: 1.3vw;
+    font-weight: bold;
+    color: #4A6867;
+    width: 27%;
+    border-bottom-right-radius: 0.6rem;
+}
+
+div.hot a{
+    color: #13227a;
+}
+
+div.hot a:hover{
+    color: orange;
+}
+
+
+
+nav.pageNumber{
+    text-align: center;
+}
+
+a.page{
+    color: #13227a;
+}
+
+a.page:hover{
+    color: orange;
+}
+
+footer{
+    background-color: dimgray;
+    color: darkgray;
+    text-align: center;
+    font-size: 1.1vw;
+}

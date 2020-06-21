@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link href="../CSS/register.css" rel="stylesheet">
+</head>
+<body>
+<div class="main">
+    <section>
+        <h1>Welcome to the Fantasy World!</h1>
+        <fieldset>
+            <form action="register.php" method="post">
+                <p>
+                    <h2>Username:</h2>
+                    <input type="text" name="userName" placeholder="只支持大小写字母、数字和下划线" size="40" pattern="^[_a-zA-Z0-9]{1,}$" required>
+                </p>
+                <p>
+                    <h2>Email:</h2>
+                    <input type="text" name="userEmail" placeholder="请输入正确的邮箱格式" required>
+                </p>
+                <p>
+                    <h2>Password:</h2>
+                    <input type="password" name="userPassword" placeholder="只支持大小写字母、数字和下划线" size="40" pattern="^[_a-zA-Z0-9]{8,}$" required>
+                </p>
+                <p>
+                    <h2>Confirm Your Password:</h2>
+                    <input type="password" name="repassword" placeholder="只支持大小写字母、数字和下划线" size="40" pattern="^[_a-zA-Z0-9]{8,}$" required>
+                </p>
+                <p>
+                    <a href="logIn.html">
+                        <button type="submit" value="Register" name="register">Register</button>
+                        <!--
+                        <input type="button" value="Register" name="register" onclick="alert('Register done.Please click 确定 to log in')">
+                        -->
+                    </a>
+                </p>
+            </form>
+        </fieldset>
+
+    </section>
+</div>
+<br/>
+<br/>
+<footer>
+    <div>
+        © 2020 爱睡觉的魔觉出品·沪 ICP 证 2002 号·沪 ICP安备20020502号 ·photo沪公网安备 19302010081 号出版物经营许可证
+    </div>
+    <div>
+        <a href="https://mail.fudan.edu.cn">About us  · </a><a href="https://mail.fudan.edu.cn"> Contact us </a>
+        <br/>
+        <a href="https://mail.fudan.edu.cn">Email address:19302010081@fudan.edu.cn</a>
+    </div>
+</footer>
+
+</body>
+</html>

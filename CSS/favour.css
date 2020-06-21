@@ -1,0 +1,178 @@
+header
+{
+    background-color: dimgray;
+    color:white;
+    text-align:left;
+    padding:4px;
+    font-family: Georgia;
+    font-size: large;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a ,.dropBto{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 124px;
+    text-decoration: none;
+}
+
+.dropBto{
+    text-align: right;
+}
+
+li a:hover ,.dropDown:hover{
+    background-color: #111;
+}
+
+.dropDown{
+    display: inline-block;
+}
+
+.dropContent{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+}
+
+.dropContent a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropContent a:hover{
+    background-color: #f1f1f1;
+}
+
+.dropDown:hover .dropContent{
+    display: block;
+}
+
+.active{
+    background-color: #4A6867;
+}
+
+
+fieldset{
+    border: 0.1rem dashed #1735ba;
+    width: 90%;
+    min-height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.7rem;
+    margin-bottom: 2%;
+}
+
+h2{
+    background-color: #4A6867;
+    text-align: left;
+    color: #f1f1f1;
+    font-size:2.0vw ;
+}
+
+
+input[type="button"]{
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: #4A6867;
+    width: 27%;
+    border-bottom-right-radius: 0.6rem;
+}
+input[type="button"]:hover{
+    color: orange;
+}
+
+div.bt>a{
+    text-align: center;
+    margin-left: 35%;
+}
+
+a.details:hover{
+    color: orange;
+}
+
+div.photo>figure{
+    padding: 2%;
+}
+
+div.photo>figure>figcaption,div.photo>figure>a>img{
+    display: inline-block;
+}
+
+
+figure figcaption{
+    width: 78%;
+    margin-left: 2%;
+    height: 100%;
+}
+
+figcaption div.title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #13227a;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+
+figcaption div.description{
+    margin-top: 3%;
+    margin-left: 2%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    text-indent: 2em;
+    font-size: 1.2rem;
+}
+
+
+
+label{
+    color: #13227a;
+    font-size: 1.4rem;
+    display: block;
+    margin-left: 4%;
+    margin-right: 0;
+    margin-top: 2%;
+    width: 100%;
+}
+
+nav.pageNumber{
+    text-align: center;
+}
+
+a.page{
+    color: #13227a;
+}
+
+a.page:hover{
+    color: orange;
+}
+
+footer{
+    background-color: dimgray;
+    color: darkgray;
+    text-align: center;
+    font-size: 1.1vw;
+}

@@ -1,0 +1,134 @@
+header
+{
+    background-color: dimgray;
+    color:white;
+    text-align:left;
+    padding:4px;
+    font-family: Georgia;
+    font-size: large;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a ,.dropBto{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 124px;
+    text-decoration: none;
+}
+
+.dropBto{
+    text-align: right;
+}
+
+li a:hover ,.dropDown:hover{
+    background-color: #111;
+}
+
+.dropDown{
+    display: inline-block;
+}
+
+.dropContent{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+}
+
+.dropContent a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropContent a:hover{
+    background-color: #f1f1f1;
+}
+
+.dropDown:hover .dropContent{
+    display: block;
+}
+
+.active{
+    background-color: #4A6867;
+}
+
+div.picture{
+    text-align: center;
+}
+
+div.picture>figure>img,div.picture>figure>figcaption{
+    display: inline-block;
+}
+
+div.picture>figcaption{
+    text-align: right;
+}
+
+fieldset.details{
+    width: 400px;
+    border: darkgray;
+    border:  0.06rem solid;
+    border-radius: 0.8rem;
+    padding-bottom: 2%;
+    text-align: left;
+    background-color: whitesmoke;
+}
+
+fieldset.description{
+    border: darkgray dashed;
+    border-radius: 0.8rem;
+    padding-bottom: 2%;
+    text-align: left;
+    background-color: whitesmoke;
+}
+
+figure{
+    padding: 10px;
+}
+table tr td{
+    padding: 2px;
+}
+p.one{
+    font-family: Calibri, serif;
+    color: blueviolet;
+    font-size: x-large;
+    font-weight: bolder;
+}
+input[type="button"]{
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: blueviolet;
+    width: 27%;
+    border-bottom-right-radius: 0.6rem;
+}
+input[type="button"]:hover {
+    color: orange;
+}
+
+div.bt{
+    text-align: center;
+}
+footer {
+    background-color: dimgray;
+    color: darkgray;
+    text-align: center;
+    font-size: 1.1vw;
+}
